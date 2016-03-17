@@ -8,6 +8,8 @@ The intention of this assessment is to establish an awareness for your current u
 <br>
 Included is the ruby framework for the assessment, sourced and upgraded from NEXTAcademy "Ar-ToDo" skeleton.
 
+<br><br>
+
 # Purpose
 The test is to ensure you are familiar with the basic of ActiveRecord working with the database like sqlite3 using Ruby. At the end of the assessment, you should be able to:
 
@@ -50,6 +52,7 @@ The main objective for this assessment is to achieve your contact list app exerc
 >
 > **Do not waste time exploring during the assessment time.**
 
+<br><br>
 
 # App Requirements
 You have the freedom to plan your datebase tables, code structures and testing.
@@ -198,6 +201,7 @@ and upgrade your table from your existing app.
 # Assessment Time
 Maximum **5 hours**
 
+<br><br>
 
 # Preparation
 1) Coordinate with your mentors for setting up your assessment.
@@ -263,4 +267,5 @@ $ cd <repo-name>
 
 10) Your mentor will download it from your GitHub and will perform the assessment for you.
 
+<br><br>
 # Good Luck
