@@ -54,7 +54,12 @@ You have the freedom to plan your datebase tables, code structures and testing.
 However, by minimum it should acheive the following items:
 
 <br>
-## 1) User is able to do 'ruby app.rb --list'
+## 1) User is able to list all the contacts
+```
+ruby app.rb --list
+```
+
+<br>
 This will list out all the contact details. Example:
 
 ```
@@ -68,7 +73,13 @@ $
 
 <br><br>
 
-## 2) User is able to do 'ruby app.rb --add <NAME> <PHONE> <ADDRESS>'
+## 2) User is able to add new contact
+```
+ruby app.rb --add <NAME> <PHONE> <ADDRESS>
+```
+
+<br>
+
 This will add a new user named <NAME> with the phone number <PHONE> and address
 <ADDRESS> into the database. Example:
 
@@ -92,7 +103,12 @@ $
 
 <br><br>
 
-## 3) User is able to do 'ruby app.rb --update <id> <NAME> <PHONE> <ADDRESS>'
+## 3) User is able to update the contact details
+```
+ruby app.rb --update <id> <NAME> <PHONE> <ADDRESS>
+```
+
+<br>
 This will update the user details with the id == <id>, such as <NAME>, <PHONE>
 and <ADDRESS>. Should the user is not found, a friendly error should be raised.
 Example: 
@@ -123,7 +139,12 @@ $
 
 <br><br>
 
-## 4) User is able to do 'ruby app.rb --delete <id>'
+## 4) User is able to delete contact
+```
+ruby app.rb --delete <id>
+```
+
+<br>
 This will delete the user with the <id> from the list. Should the user is
 not found, a friendly error should be raised. Example:
 
