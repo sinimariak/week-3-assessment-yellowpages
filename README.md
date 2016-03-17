@@ -79,7 +79,6 @@ ruby app.rb --add <NAME> <PHONE> <ADDRESS>
 ```
 
 <br>
-
 This will add a new user named <NAME> with the phone number <PHONE> and address
 <ADDRESS> into the database. Example:
 
@@ -176,7 +175,9 @@ $
 > order from (1-infinity). Hence, be careful with the id that you're using.
 >
 
-## 5) Optional: Integrate each users with his/her company and personal profile
+<br><br>
+
+## Extra Credit: Integrate each users with his/her company and personal profile
 This is a feature request after finishing all the steps above. Now, expand
 your app to be able to hold additional details such as company and personal
 profile.
