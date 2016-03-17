@@ -244,21 +244,17 @@ $ cd <repo-name>
 
 > **Important Note**:
 >
-> You should write your main functions inside "**app.rb**" file.
+> 7.1) You should write your main functions inside "**app.rb**" file.
 >
-> Then, you can create Additional class object files and place them inside controllers/models/views depending on its nature.
+> 7.2) You can create Additional class object files and place them inside app/ depending on its nature.
 >
-> User will execute only "**ruby app.rb**" to run your app.
-
-
-    7.1) Explore and try to understand the framework, observe the structure. (See Tips)
-    7.2) Observe the demo codes and figure out how they require one another.
-    7.3) Once done, begin your coding.
-
->**TIP**:
+> 7.3) User will only need to execute "**ruby app.rb**" to run your app.
 >
-> There is one missing folder for database migration.
-> Perhaps you can check out your past homework in regards of the missing folder.
+> 7.4) Explore and try to understand the framework, observe the structure.
+>
+> 7.5) Observe the demo codes and figure out how they require one another.
+>
+> 7.6) Once done, begin your coding.
 
 <br />
 8) Once done, perform your last "git push" to your repo.
