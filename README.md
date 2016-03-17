@@ -84,8 +84,8 @@ ruby app.rb --add <NAME> <PHONE> <ADDRESS>
 ```
 
 <br>
-This will add a new user named <NAME> with the phone number <PHONE> and address
-<ADDRESS> into the database. Example:
+This will add a new user named NAME with the phone number that is PHONE
+and address like ADDRESS into the database. Example:
 
 ```
 $ ruby app.rb --list
@@ -113,9 +113,9 @@ ruby app.rb --update <id> <NAME> <PHONE> <ADDRESS>
 ```
 
 <br>
-This will update the user details with the id == <id>, such as <NAME>, <PHONE>
-and <ADDRESS>. Should the user is not found, a friendly error should be raised.
-Example: 
+This will update the user details such as NAME, PHONE
+and ADDRESS for the user with the mentioned user ID. Should the user
+is not found, a friendly error should be raised. Example: 
 
 ```
 $ ruby app.rb --list
@@ -149,7 +149,7 @@ ruby app.rb --delete <id>
 ```
 
 <br>
-This will delete the user with the <id> from the list. Should the user is
+This will delete the user with the ID from the list. Should the user is
 not found, a friendly error should be raised. Example:
 
 ```
