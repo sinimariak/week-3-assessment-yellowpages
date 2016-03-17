@@ -2,8 +2,10 @@
 
 This is an open-book **checkpoint** assessment focusing on building a simple Yellow Pages contact list ruby app using ActiveRecord with SQL database.
 
+<br>
 The intention of this assessment is to establish an awareness for your current understanding and how would you progress more effectively in the coming week. Once you're aware your points of improvement, you can spend more time during the weekend to improve. **There is no pass or fail cases so breath out.** Chillax. =)
 
+<br>
 Included is the ruby framework for the assessment, sourced and upgraded from NEXTAcademy "Ar-ToDo" skeleton.
 
 # Purpose
