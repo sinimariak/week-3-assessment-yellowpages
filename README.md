@@ -3,7 +3,7 @@
 This is an open-book **checkpoint** assessment focusing on building a simple Yellow Pages contact list ruby app using ActiveRecord with SQL database.
 
 <br>
-The intention of this assessment is to establish an awareness for your current understanding and how would you progress more effectively in the coming week. Once you're aware your points of improvement, you can spend more time during the weekend to improve. **There is no pass or fail cases so breath out.** Chillax. =)
+The intention of this assessment is to establish an awareness on your current understanding and how would you progress more effectively in the coming week. Once you're aware of your points of improvement, you can spend more time during the weekend to improve. **There is no pass or fail cases so breath out.** Chillax. =)
 
 <br>
 Included is the ruby framework for the assessment, sourced and upgraded from NEXTAcademy "Ar-ToDo" skeleton.
@@ -11,7 +11,7 @@ Included is the ruby framework for the assessment, sourced and upgraded from NEX
 <br><br>
 
 # Purpose
-The test is to ensure you are familiar with the basic of ActiveRecord working with the database like sqlite3 using Ruby. At the end of the assessment, you should be able to:
+The test is to ensure you are familiar with the basics of ActiveRecord, and how it works with databases like sqlite3 using Ruby. At the end of the assessment, you should be able to:
 
 1) Understand ActiveRecord and How it Works
 
@@ -27,11 +27,11 @@ The test is to ensure you are familiar with the basic of ActiveRecord working wi
     2.4) Able to create SQL database table through Ruby Model without using SQL statement.
     2.5) Able to CRUD data into SQL database through Ruby Model without using SQL statement.
 
-3) Knows the critical points during application development.
+3) Know the critical points during application development.
 
 > Critical points:
 >
-> Refers to naming (Capitalization, camel case etc), filename, classes, relation etc.
+> Refers to naming (capitalization, camel case etc), filenames, classes, relations etc.
 
     3.1) Able to explain and show critical points for migration files
     3.2) Able to explain and show critical points for database table creation
@@ -89,13 +89,16 @@ and address like ADDRESS into the database. Example:
 
 ```
 $ ruby app.rb --list
+
 list    Name        Phone           Address
 ====    ====        =====           ======
 1.      Ping        +60163353373    35, Finance Street, 41120, CA
 2.      Holloway    +60129929292    22, Okland Street, 41750, NY
 
 $ ruby app.rb --add Kelvin +622152232 "52, White House, Washinton DC"
+
 $ ruby app.rb --list
+
 list    Name        Phone           Address
 ====    ====        =====           ======
 1.      Ping        +60163353373    35, Finance Street, 41120, CA
@@ -114,11 +117,12 @@ ruby app.rb --update <id> <NAME> <PHONE> <ADDRESS>
 
 <br>
 This will update the user details such as NAME, PHONE
-and ADDRESS for the user with the mentioned user ID. Should the user
-is not found, a friendly error should be raised. Example: 
+and ADDRESS for the user with the mentioned user ID. If the user
+is not found, a friendly error should be raised. Example:
 
 ```
 $ ruby app.rb --list
+
 list    Name        Phone           Address
 ====    ====        =====           ======
 1.      Ping        +60163353373    35, Finance Street, 41120, CA
@@ -126,7 +130,9 @@ list    Name        Phone           Address
 3.      Kelvin      +622152232      52, White House, Washinton DC
 
 $ ruby app.rb --update 2 Holloway +12422352425 "22, Okland Street, 41750, NY"
+
 $ ruby app.rb --list
+
 list    Name        Phone           Address
 ====    ====        =====           ======
 1.      Ping        +60163353373    35, Finance Street, 41120, CA
@@ -134,10 +140,11 @@ list    Name        Phone           Address
 3.      Kelvin      +622152232      52, White House, Washinton DC
 
 $ ruby app.rb --update 5
+
 Hey, Something went wrong! I can't find that USER! Are you sure that is the
 right ID?
 
-$ 
+$
 ```
 
 
@@ -154,6 +161,7 @@ not found, a friendly error should be raised. Example:
 
 ```
 $ ruby app.rb --list
+
 list    Name        Phone           Address
 ====    ====        =====           ======
 1.      Ping        +60163353373    35, Finance Street, 41120, CA
@@ -161,13 +169,16 @@ list    Name        Phone           Address
 3.      Kelvin      +622152232      52, White House, Washinton DC
 
 $ ruby app.rb --delete 2
+
 $ ruby app.rb --list
+
 list    Name        Phone           Address
 ====    ====        =====           ======
 1.      Ping        +60163353373    35, Finance Street, 41120, CA
 2.      Kelvin      +622152232      52, White House, Washinton DC
 
 $ ruby app.rb --delete 3
+
 Hey, Something went wrong! I can't find that USER! Are you sure that is the
 right ID?
 
@@ -183,7 +194,7 @@ $
 <br><br>
 
 ## Extra Credit: Integrate each users with his/her company and personal profile
-This is a feature request after finishing all the steps above. Now, expand
+This is a feature request ***AFTER*** finishing all the steps above. Now, expand
 your app to be able to hold additional details such as company and personal
 profile.
 
